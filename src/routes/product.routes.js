@@ -6,7 +6,7 @@ const router = Router();
 
 /**
  * @openapi
- * /api/v1/product:
+ * /api/v1/products:
  *   post:
  *     security:
  *       - bearerAuth: []
@@ -18,7 +18,7 @@ const router = Router();
  *       content:
  *         application/json:
  *           schema:
- *             $ref: '#/components/schema/addProduct'
+ *             $ref: '#/components/schema/addProducts'
  *     responses:
  *       201:
  *         description: OK

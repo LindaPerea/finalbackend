@@ -4,6 +4,28 @@ module.exports = (sequelize, DataTypes) => {
   return product_ecommerce.init(sequelize, DataTypes);
 }
 
+
+/**
+ * @openapi
+ * components:
+ *   schema:
+ *     addProduct:
+ *       type: object
+ *       properties:
+ *         name:
+ *           type: string
+ *           example: sombrilla
+ *         price:
+ *           type: double
+ *           example: 150
+ *         availableqty:
+ *           type: int
+ *           example: 3
+ *         user_id:
+ *           type: int
+ *           example: 2
+ */
+
 class product_ecommerce extends Sequelize.Model {
   static init(sequelize, DataTypes) {
   return super.init({
