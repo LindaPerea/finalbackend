@@ -1,4 +1,3 @@
-
 const { product_ecommerce } = require('../models');
 const models = require('../models');
 

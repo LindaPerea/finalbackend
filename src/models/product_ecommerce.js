@@ -9,7 +9,7 @@ module.exports = (sequelize, DataTypes) => {
  * @openapi
  * components:
  *   schema:
- *     addProduct:
+ *     addProducts:
  *       type: object
  *       properties:
  *         name:

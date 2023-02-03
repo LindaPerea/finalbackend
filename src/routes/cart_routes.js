@@ -12,7 +12,7 @@ const router = Router();
  *     summary: add product at cart
  *     tags: [Cart]
  *     parameters:
- *       in: cart
+ *       in: path
  *       name: id
  *       required: true
  *       schema:
@@ -25,7 +25,7 @@ const router = Router();
  *       content:
  *         application/json:
  *           schema:
- *             $ref: '#/components/schema/addProductsToCart'
+ *             $ref: '#/components/schema/addProductToCart'
  *     responses:
  *       200:
  *         description: post
